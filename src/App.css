@@ -1,38 +1,133 @@
+
+
 .App {
-  text-align: center;
+  background-color: hsl(180, 29%, 50%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.header-image{
+  background-color: hsl(180, 29%, 50%);
+  width:100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.job-card{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin:20px;
+  width: 70%;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #333;
+  padding:20px;
+}
+.job-card:hover{
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.55);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.main-container{
+  display:flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top:100px;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.job-info{
+  width:50%;
+  display:flex;
+  align-items:center;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.job-domain{
+  display:flex;
+ 
 }
+.job-domain p{
+  margin-right:20%;
+}
+.job-details{
+ width:100%;
+}
+.job-lists{
+  display:flex;
+  justify-content:space-evenly;
+  padding:0px;
+}
+.job-lists li:first-child{
+  list-style-type: none;
+}
+.job-image{
+margin-right:20px;
+}
+.job-position{
+  margin:0px;
+  text-align: left;
+}
+.job-btn{
+  border:none;
+  border-radius: 5px;
+  margin:10px;
+  outline:none;
+  padding:10px 15px;
+  color: #333;
+  background-color: hsl(180, 29%, 50%);
+  font-weight: 700;
+}
+
+.job-info-feature-1{
+  background-color: hsl(180, 29%, 50%);
+  color: #333;
+  font-weight: bolder;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.job-info-feature-2{
+  background-color: hsl(180, 29%, 50%);
+  color:#333;
+  padding:5px 10px;
+  border-radius: 5px;
+
+}
+
+.job-info-feature-3{
+  background-color: hsl(180, 29%, 50%);
+  color:black;
+  font-size: 1rem;
+  padding:5px 10px;
+  border-radius: 5px;
+}
+.search{
+  display:flex;
+  min-height:100px;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:center;
+  margin:-175px auto 100px auto;
+  width: 75%;
+  border-radius: 10px;
+  background-color: white;
+  padding:20px;
+}
+.close-btn{
+  background-color: #333;
+  color:white;
+  margin:0;
+}
+.filter-btn{
+  display:flex;
+  margin:10px;
+}
+.search .job-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+
+
